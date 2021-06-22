@@ -45,3 +45,12 @@ printは1つの引数のみ
   % 余り
 
   計算の優先順位を変更するば場合は別途()で囲む
+
+
+・MAMPの時刻はベルリンがデフォルト設定になっている
+  ファイル(php.ini)内のTimezone設定を'Asia/Tokyo'に変えることで日本時刻に変更可能
+
+  レンタルサーバーなどでphp.iniを直接編集できない場合はphpのプログラムで変更も可能
+  <? php
+  date_default_timezone_set('Asia/Tokyo';)
+  ?>
