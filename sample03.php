@@ -24,6 +24,8 @@ print(date('l')).PHP_EOL;
 print(date('s秒')).PHP_EOL;
 print(date('i分 s秒')).PHP_EOL;
 print(date('G時 i分 s秒')).PHP_EOL;
+// 文字列の連結
+print("現在は" . date('G時i分s秒' . "です")).PHP_EOL;
 ?>
 </pre>
 </main>

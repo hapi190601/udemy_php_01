@@ -54,3 +54,6 @@ printは1つの引数のみ
   <? php
   date_default_timezone_set('Asia/Tokyo';)
   ?>
+
+
+  文字列の連結は+ではなく.(ドット)を使う
