@@ -194,3 +194,6 @@ printは1つの引数のみ
 ・JSON (JavaScript Object Notation)
   JavaScriptで扱えるオブジェクトの表記法、形式
   XMLのようにデータの受け渡しや設定ファイル、ブログの更新(RSS)などでよく使われる
+
+・json_decode();
+  jsonファイルをPHPの適切な型に変更する
