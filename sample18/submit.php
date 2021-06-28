@@ -21,8 +21,8 @@
 <!-- ここにプログラムを記述します -->
 <?php
   print(htmlspecialchars($_POST["gender"], ENT_QUOTES)).PHP_EOL;
-  print($_POST["agree"]).PHP_EOL;
-  print($_POST["pref"]).PHP_EOL;
+  print(htmlspecialchars($_POST["agree"], ENT_QUOTES)).PHP_EOL;
+  print(htmlspecialchars($_POST["pref"], ENT_QUOTES)).PHP_EOL;
 ?>
 </pre>
 </main>
