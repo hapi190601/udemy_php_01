@@ -31,3 +31,10 @@ simplexml_load_file();
 json_decode();
 →jsonファイルをPHPの適切な型に変更する
 
+mb_convert_kana(第一引数, "n", "UTF-8");
+→第一引数を半角数字に変換する
+※第二引数の"n"を変更すると全角数字に変換したり半角文字に変換したりできる(公式ドキュメント参照)
+
+is_numeric();
+→引数が数字or数値形式の文字列であるかを判断する
+true or false を返す
