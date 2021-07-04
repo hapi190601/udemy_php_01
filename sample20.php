@@ -23,7 +23,9 @@
   <?php
     $age = "２０";
 
-    $age = mb_convert_kana($age, "n", "UTF-8");
+    // 文字コード(第三引数)の省略可
+    // $age = mb_convert_kana($age, "n", "UTF-8");
+    $age = mb_convert_kana($age, "n");
 
     if(is_numeric($age)) {
       print($age . "歳") . PHP_EOL;
