@@ -30,3 +30,4 @@ simplexml_load_file();
 
 json_decode();
 →jsonファイルをPHPの適切な型に変更する
+
