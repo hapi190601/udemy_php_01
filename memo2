@@ -42,4 +42,4 @@ mb_convert_kana(第一引数, "n", "UTF-8");
 
 is_numeric();
 →引数が数字or数値形式の文字列であるかを判断する
-true or false を返す
+ true or false を返す
