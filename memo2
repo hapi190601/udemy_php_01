@@ -49,3 +49,6 @@ is_numeric();
 
  header("Location: URL");
  →リンクへとぶ
+
+setcookie("キー", "保存する値", 保存する期間, その他オプション)
+→受け取る時(表示する時など)は$_COOKIE["キー"]
